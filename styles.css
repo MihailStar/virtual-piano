@@ -1,0 +1,76 @@
+body {
+  align-items: center;
+  background-color: #366141;
+  box-sizing: border-box;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+}
+
+body *,
+body *::before,
+body *::after {
+  box-sizing: inherit;
+}
+
+kbd {
+  align-items: flex-end;
+  border: 2px solid #929292;
+  cursor: pointer;
+  display: flex;
+  font-family: sans-serif;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 24px;
+}
+
+.black-keys {
+  display: flex;
+  position: relative;
+}
+
+.black-keys kbd {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 12px;
+  height: 76px;
+  padding-bottom: 16px;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}
+
+.black-keys kbd:nth-child(1) {
+  left: 28px;
+}
+
+.black-keys kbd:nth-child(2) {
+  left: 68px;
+}
+
+.black-keys kbd:nth-child(3) {
+  left: 148px;
+}
+
+.black-keys kbd:nth-child(4) {
+  left: 188px;
+}
+
+.black-keys kbd:nth-child(5) {
+  left: 228px;
+}
+
+.white-keys {
+  display: flex;
+}
+
+.white-keys kbd {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 14px;
+  height: 128px;
+  padding-bottom: 16px;
+  width: 40px;
+}
